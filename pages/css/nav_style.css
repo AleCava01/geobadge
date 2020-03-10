@@ -1,0 +1,38 @@
+*{
+  margin:0;
+  padding:0;
+}
+html, body{
+  font-family: 'Segoe UI',Tahoma,Geneva, Verdana, sans-serif;
+}
+a{
+  color:white;
+  text-decoration: none;
+}
+#navbar{
+  background: #333;
+}
+#navbar .container{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#navbar .container ul{
+  display:flex;
+}
+#navbar .container ul li{
+  list-style: none;
+  padding-right: 1rem;
+}
+#navbar .container ul li a{
+  display:block;
+  padding: 20px;
+}
+#navbar .container h1{
+  padding-left: 2rem;
+}
+#navbar ul li a:hover,
+#navbar ul li.current{
+  background: #555;
+  color:orange;
+}
